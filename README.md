@@ -4,4 +4,4 @@
 
 ## 2024 / 2º Semestre
 
-testehghghgfhfgh
+### Iniciando com GIT
