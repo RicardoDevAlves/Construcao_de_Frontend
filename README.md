@@ -2,6 +2,6 @@
 
 ## PAULO RICARDO VIEIRA ALVES
 
-## 2024 / 2º Semestre
+## Ano 2024 / 2º Semestre
 
 ### Iniciando com GIT
