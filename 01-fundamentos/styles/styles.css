@@ -32,7 +32,10 @@ h3 {
 
 #minha-div {
     background-image: url('../assets/imagem_fundo.jpg');
+    background-size: 111%;
     padding: 20px;
+    
+    
 }
 
 #altura-largura {
@@ -82,4 +85,40 @@ h3 {
 .meu-link {
     text-decoration: none;
     color: black;
+}
+
+#titulo-id {
+    color: green;
+    text-align: center;
+}
+
+.cor-laranja {
+    color: orange;
+    text-align: left;
+}
+
+.cor-laranja-avermelhado {
+    color: orangered;
+    text-align: right;
+}
+
+.link-vermelho {
+    color: red;
+    text-decoration: none;
+}
+
+.texto-grande {
+    font-size: x-large;
+}
+
+#texto-pequeno-id {
+    font-size: xx-small;
+}
+
+.fundo-azul {
+    background-color: blue;
+}
+
+.fundo-vermelho {
+    background-color: red;
 }

@@ -73,19 +73,19 @@
     <hr>
     
     <!-- FORMULARIOS -->
-    <form>
+    <form style="width: 10px; padding-bottom: 10px;">
         <h2>Formulário</h2>
 
-        <label>Nome</label>
+        <label for="nome">Nome</label>
         <input type="text" placeholder="Digite seu nome" name="nome">
 
-        <label>CPF</label>
+        <label for="cpf">CPF</label>
         <input type="text" placeholder="000.000.000-00" name="cpf">
 
-        <label>Email</label>
+        <label for="email">Email</label>
         <input type="email" placeholder="digite seu e-mail" name="email">
 
-        <label>Telefone</label>
+        <label for="telefone">Telefone</label>
         <input type="number" placeholder="(00) 9 0000-0000" name="telefone">
 
         <button type="submit">Enviar</button>
@@ -95,7 +95,7 @@
     <hr>
 
     <!-- Listas -->
-     <!-- Não ordenadas -->
+     <!-- Lista não ordenada -->
       <ul>
         <li>Maçã</li>
         <li>Banana</li>
@@ -104,7 +104,7 @@
       </ul>
 
 
-     <!-- Ordenadas -->
+     <!-- Lista ordenada -->
      <ol>
         <li>Estudar HTML</li>
         <li>Estudar CSS</li>
@@ -147,13 +147,13 @@
 
     <!-- DIV e SPAN -->
      <div>
-        <h3>Produto X</h3>
+        <h3 style="color: violet;">Produto X</h3>
         <p>R$ 500,00</p>
         <a href="#">Comprar</a>
      </div>
 
      <div>
-        <h3>Produto A</h3>
+        <h3 style="color: blueviolet;">Produto A</h3>
         <p>R$ 1.500,00</p>
         <a href="#">Comprar</a>
      </div>
@@ -165,17 +165,87 @@
      <p id="div-margem">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o <span style="color: red;background-color: aqua;">século XVI</span>, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
      
      <!-- CSS INLINE -->
-     <h3 id="minha-div" style="font-size: 25px;">CSS INLINE DE COR AZUL</h3>
+     <h3 class="cor-azul fundo-vermelho">CSS INLINE DE COR AZUL COM FUNDO VERMELHO.</h3>
 
      <hr>
 
-     <!-- Inline -->
+     <!-- Elementos Block e Inline -->
+     <!-- Block -->
+     <p>
+        É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+        A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que 
+        ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como 
+        texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao 
+        longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).
+     </p>
+
+     <p>
+        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um 
+        impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco 
+        séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a 
+        Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica 
+        como Aldus PageMaker.
+     </p>
+
+     <!-- Inline com tag span-->
      <span>Texto inline dentro da tag span</span>
-     <div>
-        <p>
-            
-        </p>
-     </div>
+     <span>Segundo texto inline dentro da tag span</span>
+
+     <hr>
+
+     <!-- Tags HTML5 -->
+     <nav></nav>
+     <header></header>
+     <main></main>
+     <aside></aside>
+     <section></section>
+     <footer></footer>
+
+     <!-- Integração com CSS -->
+     <!-- Moficando por ID -->
+     <h3 id="titulo-id">Título em h3 modificado com CSS, através de um ID</h3>
+
+     <!-- Modificando por Classes -->
+     <h3 class="cor-laranja">Título em h3 modificado com CSS, através de uma classe</h3>
+
+     <p class="cor-laranja-avermelhado">
+        Este parágrafo foi alterado com CSS, através de uma classe!
+     </p>
+
+     <a class="link-vermelho" href="#">https://www.google.com.br</a>
+
+    <hr>
+
+    <!-- Background (Fundo) -->
+    <p class="fundo-azul">Texto dentro da tag p, com seu background(fundo) alterado com CSS, por meio de uma classe.</p>
+
+    <span class="fundo-azul">Texto dentro da tag span, com seu background(fundo) alterado com CSS, por meio de uma classe.</span>
+
+    <hr>
+
+    <!-- 2 Elementos, 1 regra... -->
+    <p class="texto-grande">Dois elementos, uma regra. (Dentro de uma rag p e modificado por classe.)</p>
+    <p id="texto-pequeno-id">Dois elementos, uma regra. (Dentro de uma tag p e modificado por id.)</p>
+
+    <div id="minha-div">
+        <h1>Adicionando texto na tag div com uma imagem ao fundo...</h1>
+    </div>
+
+    <hr>
+
+    <!-- Box Model -->
+    <!-- Altura e Largura -->
+     <h4>Box Model</h4>
+    <div id="altura-largura">
+        <p>Testando altura e largura...</p>
+    </div>
+
+    <!-- Padding (Espaçamento) -->
+    <div id="div-espacamento">
+        <p>Testando espaçamento...</p>
+    </div>
+
+
      
 
      <!-- Elementos -->
