@@ -30,12 +30,53 @@ h3 {
     font-size: 8px;
 }
 
+.meu-texto {
+    background-color: darkgrey;
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: justify;
+    color: blue;
+    text-decoration: line-through;
+    /* text-decoration: none; */
+}
+
+.meu-link {
+    text-decoration: none;
+    color: black;
+}
+
+.cor-laranja {
+    color: orange;
+    text-align: left;
+}
+
+.cor-laranja-avermelhado {
+    color: orangered;
+    text-align: right;
+}
+
+.link-vermelho {
+    color: red;
+    text-decoration: none;
+}
+
+.texto-grande {
+    font-size: x-large;
+}
+
+.fundo-azul {
+    background-color: blue;
+}
+
+.fundo-vermelho {
+    background-color: red;
+}
+
+/* Estilizando por Id (identificador) */
 #minha-div {
     background-image: url('../assets/imagem_fundo.jpg');
     background-size: 111%;
     padding: 20px;
-    
-    
 }
 
 #altura-largura {
@@ -72,53 +113,11 @@ h3 {
     border-radius: 20px;
 }
 
-.meu-texto {
-    background-color: darkgrey;
-    /* text-align: center; */
-    /* text-align: right; */
-    text-align: justify;
-    color: blue;
-    text-decoration: line-through;
-    /* text-decoration: none; */
-}
-
-.meu-link {
-    text-decoration: none;
-    color: black;
-}
-
 #titulo-id {
     color: green;
     text-align: center;
 }
 
-.cor-laranja {
-    color: orange;
-    text-align: left;
-}
-
-.cor-laranja-avermelhado {
-    color: orangered;
-    text-align: right;
-}
-
-.link-vermelho {
-    color: red;
-    text-decoration: none;
-}
-
-.texto-grande {
-    font-size: x-large;
-}
-
 #texto-pequeno-id {
     font-size: xx-small;
-}
-
-.fundo-azul {
-    background-color: blue;
-}
-
-.fundo-vermelho {
-    background-color: red;
 }
