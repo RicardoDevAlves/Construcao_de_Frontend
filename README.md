@@ -1,15 +1,53 @@
+
 # IESB - CONSTRUÇÃO DE FRONT END
 
-## PAULO RICARDO VIEIRA ALVES
+## Extensões
 
-## Ano 2024 / 2º Semestre
+- Material Icon Theme (Extensão das pastas)
+- Live Preview
+- VS Code ES7+ React/Redux/React-Native/JS snippets
 
-### Iniciando com GIT
 
-### Comandos para iniciar React
-√ Would you like to use TypeScript? ... No /
-√ Would you like to use ESLint? ... No /
-√ Would you like to use Tailwind CSS? ... No /
-√ Would you like to use `src/` directory? ...  / Yes
-√ Would you like to use App Router? (recommended) ...  / Yes
-√ Would you like to customize the default import alias (@/*)? ... No /
+## Revisão
+
+- HTML
+- CSS
+- BOOTSTRAP
+
+## React
+
+### Criar projeto NEXT (React)
+
+- Instalar create-next-app
+
+```bash
+npm install -g create-next-app
+```
+
+- Criar projeto
+
+```bash
+npx create-next-app nome_projeto
+```
+
+- Perguntas
+
+```bash
+✔ Would you like to use TypeScript? … xNo / Yes
+
+✔ Would you like to use ESLint? … xNo / Yes
+
+✔ Would you like to use Tailwind CSS? … xNo / Yes
+
+✔ Would you like to use `src/` directory? … No / xYes
+
+✔ Would you like to use App Router? (recommended) … No / xYes
+
+✔ Would you like to customize the default import alias (@/*)? … xNo / Yes
+```
+
+- Executar o projeto
+
+```bash
+npm run dev
+```

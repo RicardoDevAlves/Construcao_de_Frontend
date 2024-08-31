@@ -1,8 +1,12 @@
 
-export default function Familia() {
+export default function Familia(props) {
+
+  const { nomeFamilia } = props
+
   return (
-    <div>
-      
-    </div>
+    <>
+      <h3>Família {nomeFamilia}</h3>
+      {props.children}
+    </>
   )
 }
