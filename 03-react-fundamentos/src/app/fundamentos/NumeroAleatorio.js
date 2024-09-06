@@ -1,12 +1,13 @@
 
 export default function NumeroAleatorio() {
 
-  const NumeroAleatorio = Math.floor(Math.random() * 1000) + 1
+  const numeroAleatorio = Math.floor(Math.random() * 1000) + 1
+
 
   return (
-    <>
-      <h2>Número Aleatório</h2>
-      <p>{NumeroAleatorio}</p>
-    </>
-  )
+      <>
+          <h2>Número Aleatorio</h2>
+          <p>{numeroAleatorio}</p>
+      </>
+)
 }

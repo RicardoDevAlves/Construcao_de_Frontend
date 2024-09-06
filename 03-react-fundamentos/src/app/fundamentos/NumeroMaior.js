@@ -1,5 +1,6 @@
 
-export default function NumeroMaior(props) {
+
+export default function NumeroMaior(props){
 
     const getMaior = () => {
         if(props.numA > props.numB) {
@@ -17,4 +18,6 @@ export default function NumeroMaior(props) {
             <p>O número maior é: {getMaior()}</p>
         </>
     )
+
+
 }
