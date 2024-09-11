@@ -51,3 +51,21 @@ npx create-next-app nome_projeto
 ```bash
 npm run dev
 ```
+
+- Instalar React Boostrap
+
+```bash
+npm install react-bootstrap bootstrap
+```
+- Fazer o import do CSS do bootstrap no arquivo layout
+
+```bash
+// importar CSS do Boostrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+- Instalar o Axios
+
+```bash
+npm install axios
+```
