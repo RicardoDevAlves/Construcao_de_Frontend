@@ -1,9 +1,11 @@
+'use client'
+
 import React, { useState } from 'react';
-import { Formik, Form, Field } from 'formik'; //
-import { Button, Container, Row, Col } from 'react-bootstrap'; 
-import { FaDollarSign, FaEuroSign, FaBitcoin } from 'react-icons/fa'; 
-import { converterMoeda } from './conversorMoedas'; 
-import './styles.css'; 
+import { Formik, Form, Field } from 'formik';
+import { Button, Container, Row, Col, Image } from 'react-bootstrap';
+import { FaDollarSign, FaEuroSign, FaBitcoin } from 'react-icons/fa';
+import { converterMoeda } from './conversorMoedas';
+import './styles.css';
 
 const ConversorMoedas = () => {
   const [resultado, setResultado] = useState(null);
@@ -27,18 +29,18 @@ const ConversorMoedas = () => {
       >
         {({ resetForm }) => (
           <Form>
-            <div className="form-group">
-              <label htmlFor="valorReal">Valor em Reais (R$):</label>
+            <Form.Group controlId="formValorReal">
+              <Form.Label>Valor em Reais (R$):</Form.Label>
               <Field
                 name="valorReal"
                 type="number"
                 placeholder="Insira o valor em R$"
                 className="form-control"
               />
-            </div>
+            </Form.Group>
 
-            <div className="form-group">
-              <label htmlFor="moeda">Selecione a moeda de conversão:</label>
+            <Form.Group controlId="formMoeda">
+              <Form.Label>Selecione a moeda de conversão:</Form.Label>
               <Row>
                 <Col xs={3} className="text-center">
                   <FaDollarSign size={30} />
@@ -57,7 +59,7 @@ const ConversorMoedas = () => {
                   </Field>
                 </Col>
               </Row>
-            </div>
+            </Form.Group>
 
             <div className="text-center mt-3">
               <Button variant="primary" type="submit">
