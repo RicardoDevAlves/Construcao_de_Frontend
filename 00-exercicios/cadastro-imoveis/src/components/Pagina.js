@@ -10,14 +10,12 @@ export default function Pagina({ titulo, children }) {
       {/* Barra de Navegação */}
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="/">Home</Navbar.Brand>
+          <Navbar.Brand href="/">Página Inicial</Navbar.Brand>
           <Nav className="me-auto">
             <NavDropdown title="Formulários" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/formularios/nome">Nome</NavDropdown.Item>
-              <NavDropdown.Item href="/formularios/imc">Calculadora de IMC</NavDropdown.Item>
-              <NavDropdown.Item href="/formularios/imcformik">Calculadora de IMC - Formik</NavDropdown.Item>
-              <NavDropdown.Item href="/formularios/cadastro">Cadastro de Aluno</NavDropdown.Item>
-              <NavDropdown.Item href="/formularios/cadastro/lista">Lista de Alunos</NavDropdown.Item>
+
+              <NavDropdown.Item href="/formularios/cadastro">Cadastro de Imóveis</NavDropdown.Item>
+              <NavDropdown.Item href="/formularios/cadastro/lista">Lista de Imóveis</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Container>
