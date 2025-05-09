@@ -5,7 +5,7 @@ const address = 'Brasília, DF, Brasil';
 
 
 export default function buscarLocal() {
-    axios.get(`https://maps.googleapis.com/maps/api/geocode/json`, {
+    axios.get(`https://maps.googleapis.com /maps/api/geocode/json`, {
         params: {
             address: address,
             key: API_KEY
